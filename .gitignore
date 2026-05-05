@@ -1,0 +1,50 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Parcel, Vite, etc.
+.cache/
+.parcel-cache/
+
+# Misc
+*.pem
+*.key
+.pnp
+.pnp.js
+
+# OS files
+Thumbs.db
+
+# Lockfiles: keep package-lock.json (do not ignore)
+# If you prefer to ignore lockfiles, uncomment the following:
+# package-lock.json

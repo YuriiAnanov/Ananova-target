@@ -1,0 +1,27 @@
+<svg width="300" height="80" viewBox="0 0 300 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C3FF5" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon: Stylized Target -->
+  <g transform="translate(15, 20)">
+    <!-- Outer Ring -->
+    <circle cx="20" cy="20" r="18" stroke="url(#logo-grad)" stroke-width="2.5" opacity="0.3" />
+    <!-- Inner Ring -->
+    <circle cx="20" cy="20" r="10" stroke="url(#logo-grad)" stroke-width="2.5" opacity="0.6" />
+    <!-- Bullseye -->
+    <circle cx="20" cy="20" r="4" fill="url(#logo-grad)" />
+    
+    <!-- Arrow -->
+    <path d="M35 5L20 20L12 15" stroke="url(#logo-grad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M20 20L23 17M20 20L17 17" stroke="url(#logo-grad)" stroke-width="3" stroke-linecap="round" />
+  </g>
+  
+  <!-- Typography -->
+  <text x="65" y="48" fill="#F0EEFF" style="font-family: 'Inter', sans-serif; font-weight: 800; font-size: 26px; letter-spacing: -0.5px;">
+    ANANOVA <tspan fill="url(#logo-grad)" style="font-weight: 400;">TARGET</tspan>
+  </text>
+</svg>
